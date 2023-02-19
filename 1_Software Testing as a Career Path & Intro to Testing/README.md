@@ -1,4 +1,5 @@
 ##SOFTWARE TESTING FUNDAMENTAL##
+
 A. Software testing adalah Proses untuk melakukan analisis komponen software untuk mendeteksi perbedaan antara kondisi aktual dan kondisi yang diinginkan serta melakukan evaluasi fitur pada software. Orang yg berkecimpung di dunia QE kita harus memastikan bahwa sistem itu agar 100% bebas dari bug, kita harus memastikan setiap fitur yang sudah diuji yang kita ciptakan untuk dites agar dapat menemukan bug-bug mana yang akan ditemukan user nanti.
 
 B. Banyak kejadian seperti catatan hitam sebagai software testing seperti hilangnya uang dari rekening bank, hal ini banyak kejadiannya. QE bisa lengah dari hilangnya uang dari rekening tersebut karena adanya tabrakan sebuah fitur. Ada fitur yang seharusnya mirip namun malah bertabrakan fungsinya, dimana itu dapat dicurangi oleh user. Maka dari itu adalah salah satu pentingnya keberadaan QE untuk mencegah hal tersebut terjadi.
@@ -26,8 +27,11 @@ I. Level testing:
 3. System testing: Setelah adanya integragion testing maka terdapat testing lagi yakni system testing, dimana semua fitur yang ada di sebuah sistem harus diuji, dari login, add produk, bayar, cicil, dll, semua fitur yang ada di sistem ini harus diuji.
 4. Acceptance testing: ini lebih ke kriteria fitur yang telah dibangun, mengobservasi dimana fitur yang lebih penting daripada fitur yang lain. Biasanya dilakukan di bagian production.
 
+
 ***********************************************************************************************************************************************************************
+
 ##SOFTWARE TESTING AS A CAREER PATH##
+
 A. Apa yang dilakukan software tester?
 1. Mengerti kebutuhan dokumen
 2. Membuat test case
