@@ -17,7 +17,7 @@ Tahapan:
 5. Deployment (tersedia pada user untuk digunakan, bisa saja melakukan pembaruan, menerima feedback user)
 6. Maintenance (sudah selesai, namun pengguna dapat menemukan bug yg tidak ditemukan saat pengujian)
 
-Model sdlc:
+Model SDLC:
 1. Waterfall model (tertua, jika fase satu selesai fase selanjutnya harus dimulai, kekurangan: jika ada satu detail kecil tertinggal maka keseluruhan berantakan)
 2. Agile model (memisahkan produk dengan proses dan waktu pengerjaan secara tepat, sangat efektif dalam keberhasilan produk, kekurangan: memicu proyek ke arah yg salah dan tidak sesuai dengan kemauan dan ekspektasi customer)
 3. Iterative model (repetesi tinggi, developer menciptakan versi cepat dan murah, akan merevisi jika ada kesalahan, kekurangan: dapat mengonsumsi bahan baku jika ada salah satu detail yang tertinggal untuk dikerjakan)
@@ -25,8 +25,11 @@ Model sdlc:
 5. Bigband model (model ini model yg diklaim memiliki risiko tinggi saat dijalankan, hal ini dikarenakan tim akan menginvestasikan semua bahan baku pada pengerjaan proyek tersebut sehingga berhasil apabila proyeknya kecil tapi bahaya apabila proyeknya besar)
 6. Spiral model (fleksibel, mirip iterative model, fokus pada repetisi dalam pengerjaan)
 
+
 #Agile Testing Manifesto
+
 Salah satu pengaruh dari testing manifesto: dgn adanya kondisi kebutuhan untuk mengukur dan meningkatkan upaya pengujian kita sebagai seorang qe dapat mengevaluasi dan meningkatkan seberapa baik kita melakukan software testing
+
 Yang salah dan jauh dari agile testing manifesto: Qe tidak bisa bekerja hingga proses development selesai 
 
 5 kunci:
@@ -35,6 +38,8 @@ Yang salah dan jauh dari agile testing manifesto: Qe tidak bisa bekerja hingga p
 3. Don't be a checker be a tester (memberikan feedback dengan apa yg sedang kita test)
 4. Don't try to break the system, instead help build the best possible system (qe melakukan positive test dan negative test, namun kita harus mengetahui tujuan utama: menciptakan produk yg berkualitas, maka qe seharusnya memposisikan dirinya sebagai user dan menilai produk sesuai perspektif user)
 5. The whole team is responsible for quality, not just the tester (seluruh tim bertanggung jawab dengan quality system, tidak dibebankan ke salah satu anggota saja misal ditemukan bug setelah launching, itu bukan dibebankan ke qe atau developer saja tapi semua tim harus tanggung jawab)
+
+
 
 #Testing Pyramid
 
