@@ -1,5 +1,5 @@
 #TESTING DOCUMENTATION (TEST SCENARIO - TEST CASE)
-Test scenario adalah sebuah dokumen yang berisi sekumpulan langkah-langkah sistematis yang disusun oleh software tester agar sistem yang dites dapat memenuhi ketentuan yg diinginkan oleh user, memenuhi standar tertentu serta dpt berfungsi dgn baik
+Test scenario adalah sebuah dokumen yang berisi sekumpulan langkah-langkah sistematis yang disusun oleh software tester agar sistem yang dites dapat memenuhi ketentuan yg diinginkan oleh user, memenuhi standar tertentu serta dapat berfungsi dengan baik
 Test scenario merupakan tingkatan tertinggi dari sebuah test case
 Tujuan:
 Memudahkan developer dan tester  untuk testing, menjadikan dasar pengembangan sebuah projek, sebagai dasar klien menyesuaikan dengan sistem requirement.
@@ -31,7 +31,7 @@ Tujuan: memastikan suatu sistem dapat dijalankan dengan baik sesuai dengan kebut
 Komponen:
 Test case id, test case description, precondition, test step, expected result, actual result, dan status.
 Titik awal dari pelaksanaan pengujian sebuah sistem. Diketahui Apakah sistem berjalan normal atau tidak.
-Yg diperhatikan:
+Yang diperhatikan:
 1. Test case harus sederhana dan transparan
 2. Test case dibuat dengan end user in mind
 3. Hindari pengulangan kasus uji
@@ -51,7 +51,7 @@ Test scenario login, test casenya:
 Test case nomor 2 hingga 4 termasuk negative test case.
 
 
-
+#####################################################################################################################################################################
 
 #TEST CASE MANAGEMENT TOOLS
 Test case management tools adalah situs atau software yang digunakan oleh software tester untuk menyimpan informasi terkait bagaimana pengujian produk harus dilakukan, perencanaan kegiatan pengujian serta dokumen terkait laporan status kegiatan penjaminan kualitas produk.
@@ -84,7 +84,7 @@ Testrail:
 19. Hasil overview berubah
 
 
-
+####################################################################################################################################################################
 
 #TRACKING MANAGEMENT TOOLS
 Tracking management tools adalah sebuah software yang digunakan dalam mengolah suatu proyek atau development software agar bisa berjalan secara efisien dan efektif. Seperti jira, trello, dsb.
