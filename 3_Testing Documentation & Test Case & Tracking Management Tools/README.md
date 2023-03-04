@@ -1,10 +1,11 @@
 #TESTING DOCUMENTATION (TEST SCENARIO - TEST CASE)
-Test scenario adalah sebuah dokumen yang berisi sekumpulan langkah-langkah sistematis yang disusun oleh software tester agar sistem yang dites dapat memenuhi ketentuan yg diinginkan oleh user, memenuhi standar tertentu serta dapat berfungsi dengan baik
+
+Test scenario adalah sebuah dokumen yang berisi sekumpulan langkah-langkah sistematis yang disusun oleh software tester agar sistem yang dites dapat memenuhi ketentuan yg diinginkan oleh user, memenuhi standar tertentu serta dapat berfungsi dengan baik.
+
 Test scenario merupakan tingkatan tertinggi dari sebuah test case
-Tujuan:
-Memudahkan developer dan tester  untuk testing, menjadikan dasar pengembangan sebuah projek, sebagai dasar klien menyesuaikan dengan sistem requirement.
-Tools:
-Spreadsheet, testrail, testlink, dll
+Tujuan: Memudahkan developer dan tester  untuk testing, menjadikan dasar pengembangan sebuah projek, sebagai dasar klien menyesuaikan dengan sistem requirement.
+
+Tools: Spreadsheet, testrail, testlink, dll
 
 Kriteria test scenario:
 1. In language system requirement, adalah kunci sehingga kita dapat menyusun skenario teks sesuai flow yg telah ditentukan 
@@ -26,11 +27,16 @@ Contoh test scenario:
 3. Cek fungsional create new account
 
 Test case
+
 Test case/uji kasus adalah suatu rancangan atau rangkaian mengenai tindakan yg dilakukan oleh software tester untuk melakukan verifikasi terhadap fitur atau fungsi tertentu dari sebuah perangkat lunak.
+
 Tujuan: memastikan suatu sistem dapat dijalankan dengan baik sesuai dengan kebutuhan awal serta mampu memberikan respon ketika dapat suatu masukan yg tidak valid.
+
 Komponen:
+
 Test case id, test case description, precondition, test step, expected result, actual result, dan status.
 Titik awal dari pelaksanaan pengujian sebuah sistem. Diketahui Apakah sistem berjalan normal atau tidak.
+
 Yang diperhatikan:
 1. Test case harus sederhana dan transparan
 2. Test case dibuat dengan end user in mind
@@ -42,7 +48,9 @@ Yang diperhatikan:
 8. Peer review
 
 Contoh test step:
+
 Dari test scenario tadi kita bisa membuat beberapa test case :
+
 Test scenario login, test casenya:
 1. Masukkan email valid dan password valid
 2. Masukkan email valid dan password invalid
@@ -54,6 +62,7 @@ Test case nomor 2 hingga 4 termasuk negative test case.
 #####################################################################################################################################################################
 
 #TEST CASE MANAGEMENT TOOLS
+
 Test case management tools adalah situs atau software yang digunakan oleh software tester untuk menyimpan informasi terkait bagaimana pengujian produk harus dilakukan, perencanaan kegiatan pengujian serta dokumen terkait laporan status kegiatan penjaminan kualitas produk.
 
 Kita membutuhkannya karena:
@@ -87,9 +96,13 @@ Testrail:
 ####################################################################################################################################################################
 
 #TRACKING MANAGEMENT TOOLS
+
 Tracking management tools adalah sebuah software yang digunakan dalam mengolah suatu proyek atau development software agar bisa berjalan secara efisien dan efektif. Seperti jira, trello, dsb.
+
 Yang dibahas: jira
+
 Jira adalah salah satu alat bantu yg bertujuan untuk pelacakan bug, pelacakan isu, dan manajemen proyek. 
+
 Ada beberapa fitur: test assignment, scrum and kanban bug tracking, roadmaps, konektivitas dengan aplikasi lain, pelaporan/reporting.
 
 Cara menggunakan jira dgn metode scrum:
@@ -109,5 +122,6 @@ f. Need fix: berisi hasil testing yg tidak lolos kriteria oleh tim development
 g. Done: berisi hasil testing yg sudah lolos kriteria oleh tim development
 7. Klik button pada panel untuk membuat issue > input field: project (qe-alta) > issue type (story/task/bug/epic) > input summary (judul issue yg akan dibuat) > input description (maksud dari issue, apabila story maka diisikan acceptance criteria) > input assignee > input label (untuk filter) > sprint > prioritas (highest/high/low/lowest/medium) > input reporter (pembuat issue) > attachment field dst opsional > klik button Create (isu yg dibuat tadi akan masuk ke menu backlog)
 9. Pilih menu backlog untuk melihat story yg udah kita buat
+
 
 Apa yang harus diperhatikan qe pada jira? Ketika menemukan bug saat testing, pertama kita harus membuat issue bertipe bug, kemudian jelaskan di isu tersebut kondisi skrg seperti apa, expected seperti apa, dan langkah langkah untuk melakukan testing tersebut, kemudian pindahkan story atau issue yg berkaitan dengan bug ke panel in progress.
