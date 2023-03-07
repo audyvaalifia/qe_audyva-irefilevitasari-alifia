@@ -41,7 +41,7 @@ Struktur Bagan dari sebuah output command:
 4. Nama setelah nama orang merupakan grup
 5. Angka setelahnya merupakan ukuran
 6. Penanggalan setelahnya merupakan tanggal dibuat
-7. nama terakhirr merupakan nama file/direktori
+7. nama terakhir merupakan nama file/direktori
 
 Permission:
 1. d: berkategori direktori
