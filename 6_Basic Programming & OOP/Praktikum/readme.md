@@ -1,4 +1,5 @@
 #BASIC PROGRAMMING
+
 Di awal praktik programming Java, kita perlu menginstall IDE dan JDK terlebih dahulu. JDK sangat berguna untuk developoing, debugging, dan monitoring.
 
 IDE ada berbagai macam, seperti BlueJ, NetBeans, Eclipse, dan Intellij. Pada kali ini saya(praktikan) menggunakan Netbeans.
