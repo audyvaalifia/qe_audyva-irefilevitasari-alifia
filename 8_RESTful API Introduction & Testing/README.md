@@ -58,7 +58,16 @@ Buat folder di collection, beri nama, folder tsb dibuatkan new request. Contohny
 
 API Testing adalah test yang dilakukan pada layer dimana API yang didesain untuk berinteraksi atau komunikasi pada aplikasi dipastikan fungsional test nya melalui rangkaian atau set dari sebuah tes
 
-Tujuan: Meluaskan cakupan testing itu sendiri dan melakukan testing sedini mungkin dimana gui belum sepenuhnya siap untuk diikutsertakan dalam proses testing. Api testing dibedakan menjadi 3 macam:
+Tujuan: Meluaskan cakupan testing itu sendiri dan melakukan testing sedini mungkin dimana gui belum sepenuhnya siap untuk diikutsertakan dalam proses testing. 
+
+Pendekatan saat melakukan API Testing:
+1. Harus mengerti fungsi dari API Testing
+2. Mampu mengaplikasikan teknik testing
+3. Merencanakan dan menentukan input parameter untuk API
+4. Menjalankan test case
+5. Mengamati actual result dan expected result dan membandingkannya
+
+Api testing dibedakan menjadi 3 macam:
 - Functionality: Yakni ditujukan untuk memvalidasi suatu fitur apakah sudah berfungsi atau belum, 
 - Load test: Load test tujuan menguji kekuatan suatu sistem apakah mampu mengolah data dari beban yang diberikan
 - Security: Tes ini memiliki tujuan untuk menguji keamanan dari suatu sistem 
