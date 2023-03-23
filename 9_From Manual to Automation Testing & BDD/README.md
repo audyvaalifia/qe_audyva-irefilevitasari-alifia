@@ -25,6 +25,7 @@ Kelemahan:
 
 
 2. Automation testing
+
 Sebuah pengujian atau testing yg kita lakukan secara otomatis, caranya kita menggunakan sebuah automation tool, contohnya jmeter, selenium, katalon, dsb.
 Tujuan: efisiensi karena automation testing sangat cocok untuk mengeksekusi test case yg sangat banyak secara otomatis. Bisa kita gunakan untuk mengukur coverage, mengukur seberapa banyak fitur yg telah kita uji.
 Kita menggunakan automation testing karena:
