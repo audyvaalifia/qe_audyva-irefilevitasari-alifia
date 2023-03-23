@@ -96,4 +96,5 @@ Scenario dalam feature files tersebut kemudian akan digunakan sebagai panduan un
 
 
 CUCUMBER
+
 Untuk melakukan serangkaian behavior test ada sebuah tools yg disebut cucumber. Cucumber adalah sebuah tools yg mendukung BDD. Cucumber membaca semacam ketentuan yg dapat dieksekusi dimana ditulis menggunakan teks biasa dan ketentuan tersebut memvalidasi bahwa sistem atau aplikasi melakukan apa yang dituliskan dalam ketentuan tersebut. Ketentuan tersebut terdiri dari beberapa scenario.
