@@ -1,0 +1,318 @@
+{
+	"info": {
+		"_postman_id": "1ce8cb89-92c5-48ff-9d99-6bbb78dd09d2",
+		"name": "Praktikum",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26375223"
+	},
+	"item": [
+		{
+			"name": "Soal Pengenalan RESTful API",
+			"item": [
+				{
+					"name": "GET - Mendapatkan semua data post",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "",
+									"disabled": true
+								},
+								{
+									"key": "id",
+									"value": "77",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST - Membuat data post baru",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": 9,\r\n    \"title\": \"halo ini post baru audyva\",\r\n    \"body\": \"lorem ipsum doloret ames begitulah\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "101",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET - Mendapatkan data post berdasarkan ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT - Mengubah data post berdasarkan ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"angin muson kedelapan\",\r\n    \"body\": \"suatu hari kakak perempuanku menghilang tepat 3 hari sebelum invasi distrik air. Aku dan dua sahabatku akan mencari jawaban dari dunia yang janggal ini!\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DEL - Menghapus data post berdasarkan ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Soal Eksplorasi",
+			"item": [
+				{
+					"name": "GET - Mendapatkan semua data post",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts?id=y",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "budipekerti",
+									"disabled": true
+								},
+								{
+									"key": "id",
+									"value": "y"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST - Membuat data post baru",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userId\": 9,\r\n    \"title\": \"hai ini post baru saya\",\r\n    \"body\": \"apayaisinya lorem ipsum doloret ames begitulah\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "101",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GET - Mendapatkan data post berdasarkan ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "aiueo",
+									"disabled": true
+								},
+								{
+									"key": "id",
+									"value": "abcdef",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT - Mengubah data post berdasarkan ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"angin muson tidak ada\",\r\n    \"body\": \"suatu hari kami dipaksa mmenjadi tentara, tapi tujuan kami akhirnya berubah, kami akan melindungi anak dari mendiang kakakku\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "xyzggjas",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DEL - Menghapus data post berdasarkan ID",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://jsonplaceholder.typicode.com/posts/1",
+							"protocol": "https",
+							"host": [
+								"jsonplaceholder",
+								"typicode",
+								"com"
+							],
+							"path": [
+								"posts",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
