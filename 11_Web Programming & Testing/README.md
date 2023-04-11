@@ -20,17 +20,17 @@ Tools yg membantu: html editors (text editors) yg sebagai telat kita untuk menge
 Tools kedua yaitu web browser yg berfungsi untuk menjalankan code html yg telah kita buat. 
 
 Sintaks html menggunakan tag kurung siku.
-- <title) untuk mengisikan nama web pada tab 
-- <body> artinya badan html atau isinya
-- <div> merupakan konten bagian html
-- <h1> untuk heading 1 begitu pula hingga <h6>
-- <p> untuk menuliskan paragraf
-- <strong> untuk cetak tebal
-- <em> untuk cetak miring
-- <s> untuk baris tercoret
-- <br> atau break untuk next line
-- <a href="link> untuk membuat link
-- <ing src="*.png"> untuk mengimpor gambar
+- <'title) untuk mengisikan nama web pada tab 
+- <'body> artinya badan html atau isinya
+- <'div> merupakan konten bagian html
+- <'h1> untuk heading 1 begitu pula hingga <h6>
+- <'p> untuk menuliskan paragraf
+- <'strong> untuk cetak tebal
+- <'em> untuk cetak miring
+- <'s> untuk baris tercoret
+- <'br> atau break untuk next line
+- <'a href="link> untuk membuat link
+- <'ing src="*.png"> untuk mengimpor gambar
 - dll
 
 
