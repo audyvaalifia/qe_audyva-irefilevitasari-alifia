@@ -1,8 +1,8 @@
-##############################################################################
+#####################################################################################################################################################
 
 FUNDAMENTAL PERFORMANCE TEST
 
-##############################################################################
+#####################################################################################################################################################
 
 #Performance test adalah sebuah teknik non functional testing yg mengukur kualitas atribut dari sistem seperti stabilitas, ketahanan (reliability-misal kita mengetes apakah sistem ini bekerja dengan baik meskipun diberikan req atau beban kerja yg banyak), dan mengukur penggunaan sumber daya dari sebuah sistem(misalkan mengukur sistem dapat bekerja dgn baik dgn menggunakan sumber daya yg efektif dan seefisien mungkin).
 
