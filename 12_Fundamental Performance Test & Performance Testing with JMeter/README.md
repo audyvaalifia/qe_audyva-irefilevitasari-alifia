@@ -2,7 +2,7 @@
 
 FUNDAMENTAL PERFORMANCE TEST
 
-#####################################################################################################################################################
+#########################################################################################################
 
 #Performance test adalah sebuah teknik non functional testing yg mengukur kualitas atribut dari sistem seperti stabilitas, ketahanan (reliability-misal kita mengetes apakah sistem ini bekerja dengan baik meskipun diberikan req atau beban kerja yg banyak), dan mengukur penggunaan sumber daya dari sebuah sistem(misalkan mengukur sistem dapat bekerja dgn baik dgn menggunakan sumber daya yg efektif dan seefisien mungkin).
 
@@ -69,11 +69,11 @@ adalah sebuah testing pemanasan, memastikan skrip yg sudah kita buat benar atau 
 
 
 
-##############################################################################
+#########################################################################################################
 
 INTRODUCTION JMETER AND TUTORIAL RECORD WITH JMETER
 
-##############################################################################
+#########################################################################################################
 
 #Ada beberapa tools yg dapat kita gunakan untuk melakukan pengujian ini, salah satunya JMETER, sedangkan tools lainnya ada: grafana k6, locust, BlazeMeter, LoadNinja.
 
@@ -142,11 +142,11 @@ dari file csv yg sudah kita buat yaitu kita bisa hitung summary reportnya, summa
 
 
 
-##############################################################################
+#########################################################################################################
 
 POST PROCESSOR
 
-##############################################################################
+#########################################################################################################
 
 #Post processor adalah bagian dari test plan yg merupakan sebuah aksi yg berjalan saat proses setelah dilakukan. proses ini sendiri adalah proses req ke sebuah alamat web. prose yg dipakai pada post processor ini pada umumnya untuk mengekstrak value yang didapatkan dari hasil  mengakses sebuah alamat web, seperti data data pad json, psda session, pada bagian response yg lainnya. Salah satu post processor di jmeter: json extractor, selain itu ada extractor lain dalam post processor. Pada JSON extractor kita dapat menggunakan JSON path untuk mengambil nilai nilai  terdapat pada data json yg dihasilkan dari response saat kita melakukan req. 
 
