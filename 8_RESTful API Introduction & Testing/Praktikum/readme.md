@@ -1,2 +1,2 @@
-Link praktikum: https://bit.ly/AudyvaPraktikumQE
+Link Praktikum: https://bit.ly/AudyvaPraktikumQE
 
