@@ -1,1 +1,1 @@
-Link Praktikum: https://bit.ly/AudyvaPraktikumAlterraQE
+Link Praktikum: https://bit.ly/AudyvaPraktikumQE
